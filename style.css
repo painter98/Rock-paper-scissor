@@ -1,0 +1,143 @@
+body{
+    background-color:black;
+    background-image: url('https://wallpapercave.com/wp/wp8121945.jpg');
+    background-size: 60%, 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#container-2,#container-3{
+    display:none;
+}
+
+#go-btn,#start,#one-only,#two-only{
+     cursor:pointer;
+}
+
+#players{
+    justify-content: space-between;
+}
+
+#players #second{
+    align-self:self-end;
+}
+
+#container-1 > img{
+    padding-bottom:0;
+}
+
+#container-1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding: 0 5vw;
+    color:white;
+    font-size: 72px;
+    margin-top:0;
+}
+
+h1{
+    margin-bottom:20vw;
+    position:relative;
+    padding:0;
+    top:0;
+}
+
+#go-btn{
+    background-color: yellow;
+    font-size:bold;
+    border:none;
+    border-radius:50%;
+    padding:2em;
+}
+
+
+#container-2{
+    padding:10%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#start{
+    margin-top:10%;
+    padding:10vh;
+    border-radius:20%;
+    border:none;
+    background-color: tomato;
+    color:white;
+}
+
+#two-only{
+    margin-left:3vh;
+}
+
+#one-only,#two-only{
+    padding:5vw;
+    width:20vw;
+    border-radius:50%;
+    border:none;
+    background-color: yellow;
+    color:black;
+}
+
+#container-3{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#player-1,#player-2{
+    padding:1vw;
+    color:white;
+    font-size:60px;
+}
+
+#play{
+    align-self:center;
+    padding:4vw;
+    border-radius:50%;
+    border:none;
+    cursor:pointer;
+    color:white;
+    background-image: url(' https://th.bing.com/th/id/R.8ca36943f6771bf03fb6741290fe3888?rik=4RyXzfdxfOQMIg&riu=http%3a%2f%2f4.bp.blogspot.com%2f_dP6rRrwb7Ng%2fTGRufI7lViI%2fAAAAAAAAANU%2f0BsL6Qth8hs%2fs1600%2fishot-30.png&ehk=5Wxj99wYvfVfKxInJ1UaakVAyeBge7cw5WO4%2f6vnIFc%3d&risl=&pid=ImgRaw&r=0');;
+    background-size: 10vw 18vh;
+    background-repeat: no-repeat;
+}
+
+#result-1,#result-2{
+    width:fit-content;
+    padding:1vw;
+    margin-left:20%;
+    text-align: center;
+}
+
+#result{
+    color:white;
+    background-color: black;
+    font-size: 72px;
+    padding:2%;
+    text-align: center;
+    align-self:center;
+}
+
+#image1 > img,#image2 >img{
+    width:20vw;
+    height:20vw;
+    display:none;
+}
+
+#image1 > img{
+    transform:rotate(90deg);
+}
+
+#image2 > img{
+    transform:rotate(270deg);
+}
+
+@media (max-width:700px){
+    #play{
+        padding:3vw;
+    }
+}
